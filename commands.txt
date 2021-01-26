@@ -1,0 +1,4 @@
+.mode json
+.output itemTags.json
+select itemId,name from itemTags,tags where itemTags.tagId == tags.tagId;
+.exit
